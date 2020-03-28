@@ -16,3 +16,8 @@ alias corona="cat ~/.cache/corona-formatted" \
 
 **Note**: Remember to run the update script first. After you do that it's saved
 in that `~/.cache/corona-formatted` so just cat that to see what there is.
+
+To get the coronachan image run the `coronachan.sh` script and modify to your
+liking, alternatively you can just use the image provided (`coronachan.txt`) and `cat` that in the
+terminal. It's included just to have something else. Emojis are optional as
+well, just remove them and change to your liking.
