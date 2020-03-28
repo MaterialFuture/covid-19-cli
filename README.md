@@ -11,7 +11,7 @@ since, c'mon, I know you want to keep lookingg at the stats.
 
 ``` sh
 alias corona="cat ~/.cache/corona-formatted" \
-	  coronaupdate="~/Code/shell/covid/corona-update.sh"
+      coronaupdate="~/Code/shell/covid/corona-update.sh" \
 ```
 
 **Note**: Remember to run the update script first. After you do that it's saved
