@@ -1,10 +1,9 @@
-# Covid-19 CLI Tracker
-Just a silly little tracker that provides a simple way to get the data for
-covid-19 to print in your terminal.
+# Covid-19 Status
+Just a script that helps automate the recieving and parsing of Covid-19 data.
 
 I built this for myself since I didn't want to rely on an irc bot
 since I'm not online 24/7, so offline is a must, simplicity, less data usage
-since my x200 doesn't have the best wifi-card.
+because my x200 doesn't get the best wifi signal when out.
 
 **Requirements**: This requires `jq` which I recomend having if you consume a
 lot of data via shell scripts, it makes your life a lot easier.
@@ -13,6 +12,14 @@ lot of data via shell scripts, it makes your life a lot easier.
 The main file is `c19-update.sh`, this is only ran when you want to update the
 data. Use an alias to access the data and grep what you need.
 `cat` or `less` the cached formatted data and that's about it. 
+
+## Running
+
+``` sh
+chmod +x ./c19-update.sh
+./c19-update.sh
+```
+
 
 ### Alias
 If you want to make full use of this script I'd recommend making an alias for it,
