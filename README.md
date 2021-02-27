@@ -1,11 +1,11 @@
 # Covid-19 Status
-Just a script that helps automate the recieving and parsing of Covid-19 data.
+Just a script that helps automate the receiving and parsing of Covid-19 data.
 
 I built this for myself since I didn't want to rely on an irc bot
 since I'm not online 24/7, so offline is a must, simplicity, less data usage
 because my x200 doesn't get the best wifi signal when out.
 
-**Requirements**: This requires `jq` which I recomend having if you consume a
+**Requirements**: This requires `jq` which I recommend having if you consume a
 lot of data via shell scripts, it makes your life a lot easier.
 
 ### What do?
